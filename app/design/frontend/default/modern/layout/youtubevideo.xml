@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+<youtube_new_handle>
+        <reference name="product.info.tabs" as="info_tabs" template="catalog/product/view/tabs.phtml" >
+        		<action method="addTab" translate="title" module="catalog"><alias>youtube_video</alias><title>YouTube Video</title><block>catalog/product_view</block><template>catalog/product/view/youtubevideo.phtml</template></action>
+        </reference>
+</youtube_new_handle>
+</layout>

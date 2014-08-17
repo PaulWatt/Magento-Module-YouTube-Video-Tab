@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<PW_YouTubeVideo>
+			<active>true</active>
+			<codePool>community</codePool>7
+			<depends>
+                <Mage_Catalog />
+            </depends>
+		</PW_YouTubeVideo>
+	</modules>
+</config>

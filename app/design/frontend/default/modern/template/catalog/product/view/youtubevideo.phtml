@@ -1,0 +1,7 @@
+<?php $_product = $this->getProduct(); ?>
+<?php if ($_product): ?>
+    <h2><?php echo $this->__('Details') ?></h2>
+    <div class="std">
+       <?php echo $_product->getData('youtube_video'); ?>
+    </div>
+<?php endif; ?>
